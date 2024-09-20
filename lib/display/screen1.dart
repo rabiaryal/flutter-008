@@ -39,7 +39,7 @@ class SecondScreen extends StatelessWidget {
                             itemCount: users.length,
                             itemBuilder: (context, index) {
                               final user = users[index];
-                              SizedBox(height: 200,);
+                              const SizedBox(height: 200,);
                               return ListTile(
                                 
                                 title: Text('Name: ${user.name}'),

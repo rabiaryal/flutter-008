@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 // here i am displaying the info enter in the one page over the next page with the
 
 class SendingScreem extends StatefulWidget {
-  SendingScreem({super.key});
+  const SendingScreem({super.key});
   // final textController = TextEditingController();
 
   @override
@@ -25,7 +25,7 @@ class _SendingScreemState extends State<SendingScreem> {
     Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => SecondScreen(),
+          builder: (context) => const SecondScreen(),
         ));
   }
 
@@ -69,7 +69,7 @@ class _SendingScreemState extends State<SendingScreem> {
                   hintText: 'Enter your Email',
                   border: OutlineInputBorder(),
                 )),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             TextFormField(
@@ -88,7 +88,7 @@ class _SendingScreemState extends State<SendingScreem> {
                   addUser();
                 },
                 child: const Text("Add User")),
-                SizedBox(height: 15,),
+                const SizedBox(height: 15,),
             ElevatedButton(
                 onPressed: () {
                   toNextScreen();

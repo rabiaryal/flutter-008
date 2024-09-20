@@ -19,3 +19,5 @@ samples, guidance on mobile development, and a full API reference.
 Here the display folder contains the execution of the hive where data form
 the one screen is displayed into the next screen with hive 
 
+///////////////////////
+the contact folder contains the code for the  contact app where the contact list is stored at the hive storage

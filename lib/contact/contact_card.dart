@@ -14,11 +14,13 @@ class ContactCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4),
       child: Card(
     
-        child: ListTile(
+        child: 
+        
+        ListTile(
           leading:  CircleAvatar(
             radius: 20,
-            // You can specify a radius
-            child: Text(firstLetter), // Initial of the name
+           
+            child: Text(firstLetter),
           ),
           title: Text(name),
           subtitle: Text(phoneNumber),
